@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 8px 80px 8px;
+    color: #f9faf8;
+    font-size: 24px;
+    background-color: #1f2937;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px 220px 100px 330px;
+    background-color: #1f2937;
+}
+
+.contentOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.imageOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigImage { 
+    height: 350px;
+    width: 450px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 400px;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 400px;
+}
+
+button {
+    align-self: flex-start;
+    background-color    : #3882f6;
+}
+
+.sectionTwo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.titleSection {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.contentTwo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+    padding-bottom: 100px;
+}
+
+.info {
+    width: 150px;
+}
+
+.text {
+
+}
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+}
+
+.quoteAuthor {
+    font-weight: bolder;
+    align-self: flex-end;
+    padding-right: 320px;
+}
